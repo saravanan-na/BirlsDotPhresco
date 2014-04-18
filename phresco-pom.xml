@@ -68,8 +68,8 @@
                         <configuration>
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptors>
-                                <descriptor>.phresco/war-config.xml</descriptor>
-                                <descriptor>.phresco/zip-config.xml</descriptor>
+                                 <descriptor>${phresco.src.root.dir}/../conf/war-config.xml</descriptor>
+                                <descriptor>${phresco.src.root.dir}/../conf/zip-config.xml</descriptor>
 							</descriptors>
                         </configuration>
                     </execution>
